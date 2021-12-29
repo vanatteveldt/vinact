@@ -17,7 +17,7 @@ export default class QuestionSet extends Component {
         console.log(this.state.questionset["questions"]);
 
         return(
-              <Grid>
+              <Grid stackable columns={2}>
               <Grid.Column stretched width={4}>
                 <QuestionSetPicker 
                     selected={this.state.questionset} 
