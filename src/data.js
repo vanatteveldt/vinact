@@ -77,7 +77,7 @@ export const questions = {
         "question": "Which appellation does not belong to the three biggest Barbera appellations of Monferrto?",
         "answers": [
           "Barbera d\u2019Asti DOCG",
-          "Barbera d\u2019Asti DOC ",
+          "Barbera d\u2019Asti DOC",
           "Barbera del Monferrato Superiore DOCG",
           "Barbera del Monferrato DOC"
         ],
@@ -146,7 +146,7 @@ export const questions = {
       {
         "question": "Which DOCG is based on grape Ruche?",
         "answers": [
-          "Ruche d\u2019Alba ",
+          "Ruche d\u2019Alba",
           "Ruche di Ovada Monferrato",
           "Ruche di Ovada d\u2019Alba",
           "Ruche di Castagnole Monferrato"
@@ -238,7 +238,7 @@ export const questions = {
         "answers": [
           "Langhe has no subzones",
           "Nacetta del Comune di Novello",
-          "Nizza  ",
+          "Nizza",
           "Serravalle Langhe"
         ],
         "correct": 1
@@ -310,7 +310,8 @@ export const questions = {
           "Angelo Gaja",
           "Carlo Gancia",
           "Walter Massa"
-        ]
+        ],
+        "correct": 0
       },
       {
         "question": "How long must a Barbasresco Riserva age?",
@@ -388,8 +389,9 @@ export const questions = {
           "Ghemme is smaller than Gattinara",
           "Ghemme has higher proportion of Nebbiolo than Gattinara",
           "Similar ageing requirements for Ghemme and Gattinara",
-          "Wines are similar in quality "
-        ]
+          "Wines are similar in quality"
+        ],
+        "correct": 1
       },
       {
         "question": "How long must a Gattinara Riserva age?",
@@ -406,7 +408,7 @@ export const questions = {
         "answers": [
           "None",
           "Barbera & Dolcetto",
-          "Ruche  & Freisa",
+          "Ruche & Freisa",
           "Uva Rara & Vespolina"
         ],
         "correct": 3
@@ -416,8 +418,8 @@ export const questions = {
         "answers": [
           "Bramaterra",
           "Gattinara",
-          "Ghemme  ",
-          "Lessona  "
+          "Ghemme",
+          "Lessona"
         ],
         "correct": 0
       },
@@ -448,7 +450,8 @@ export const questions = {
           "Guyot",
           "Cappuccina",
           "Alberello"
-        ]
+        ],
+        "correct": 0
       },
       {
         "question": "What kind of wine was made in Erbaluce di Caluso historically?",
@@ -482,12 +485,12 @@ export const questions = {
       }
     ]
   },
-  "Valle d\u2019Aosta": {
-    "name": "Valle d\u2019Aosta",
+  "Valle d'Aosta": {
+    "name": "Valle d'Aosta",
     "type": "MC",
     "questions": [
       {
-        "question": "What is  true about Valle d\u2019Aosta?",
+        "question": "What is true about Valle d\u2019Aosta?",
         "answers": [
           "90% is red wine",
           "Soils are alluvial with schist, limestone",
@@ -563,7 +566,220 @@ export const questions = {
           "Prie Blanc",
           "Moscato Bianco",
           "Petite Arvine"
-        ]
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What grape is also called Picciourouzo?",
+        "answers": [
+          "Nebbiolo",
+          "Barbera",
+          "Dolcetto",
+          "Petit Rouge"
+        ],
+        "correct": 3
+      }
+    ]
+  },
+  "Lombardia": {
+    "name": "Lombardia",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "What grape is also called Bonarda in Lombardia?",
+        "answers": [
+          "Sangiovese",
+          "Croatina",
+          "Barbera",
+          "Nebbiolo"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the name of the area where Nebbiolo thrives in Lombardia?",
+        "answers": [
+          "Valtellina",
+          "Franciacorta",
+          "Oltrepo Pavese",
+          "Bergamo hills"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is another name for Nebbiolo in Lombardia?",
+        "answers": [
+          "Chiavennasca",
+          "Picotendro",
+          "Lampia",
+          "Vespolina"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the most important grape in Lombardia?",
+        "answers": [
+          "Pinot Nero",
+          "Chardonnay",
+          "Croatina",
+          "Pinot Grigio"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How many DOCGs has Lombardia?",
+        "answers": [
+          "0",
+          "5",
+          "10",
+          "12"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What wine is made at Franciacorta DOCG?",
+        "answers": [
+          "white",
+          "red",
+          "passito",
+          "sparkling"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What is not a grape used in Franciacorta?",
+        "answers": [
+          "Pinot Grigio",
+          "Pinot Nero",
+          "Pinot Bianco",
+          "Erbamat"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which statement is NOT true",
+        "answers": [
+          "Franciacorta spend less time on lees than Champagne",
+          "Riserva are made only in exceptional years",
+          "Vintage bottling require minimal 30 months on lees",
+          "Saten is like Blanc de Blanc in Champagne"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the most productive and largest sub-region of Lombardia?",
+        "answers": [
+          "Bergamo Hills",
+          "Franciacorta and Brescia Hills",
+          "Valtellina",
+          "Oltrepo Pavese"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What is the most planted grape in Oltrepo Pavese?",
+        "answers": [
+          "Croatina",
+          "Pinot Nero",
+          "Barbera",
+          "Vespolina"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is NOT a blending grape for Bornarda dell'Oltrepo Pavese DOC?",
+        "answers": [
+          "Uva Rara",
+          "Barbera",
+          "Pinot Nero",
+          "Ughetta"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  "Liguria": {
+    "name": "Liguria",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "What is the local name in Liguria for Dolcetto?",
+        "answers": [
+          "Rossese",
+          "Bosco",
+          "Ormeasco",
+          "Pigato"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How much wine is made from Vermentino in Liguria?",
+        "answers": [
+          "20.00%",
+          "30.00%",
+          "40.00%",
+          "50.00%"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is NOT TRUE about Liguria?",
+        "answers": [
+          "Liguria has 0 DOCGs?",
+          "Production in Riviera di Ponente is focused on single-varietal wines",
+          "More than half of the wines are red",
+          "Steep tarraced vineyards make winemaking heroic"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What training system do they use in Western Riviera of Liguria?",
+        "answers": [
+          "Alberallo",
+          "Pergola",
+          "Sylvoz",
+          "Guyot"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the largest DOC in Liguria?",
+        "answers": [
+          "Cinque Terre",
+          "Colli di Luni",
+          "Riviera Ligure di Ponente",
+          "Ormeasco di Pornassio"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is not a subzone for Pigato in Liguria?",
+        "answers": [
+          "Albenganese",
+          "Quiliano",
+          "Finalese",
+          "Riviera dei Fiori"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What was the first wine to receive DOC in Liguria?",
+        "answers": [
+          "Rossese die Dolceacqua",
+          "Colli di Luni",
+          "Cinque Terre",
+          "Riviera Ligure di Ponente"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How many MGA\u2019s has Rossese di Dolceacqua?",
+        "answers": [
+          "12",
+          "26",
+          "34",
+          "38"
+        ],
+        "correct": 3
       }
     ]
   }
