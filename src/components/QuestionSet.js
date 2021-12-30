@@ -3,18 +3,25 @@ import Questions from './Questions';
 import { Grid, Segment } from 'semantic-ui-react';
 import QuestionSetPicker from './QuestionSetPicker'
 
+function shuffleArray(array) {
+    return array
+        .map((value) => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
+}
+
 export default class QuestionSet extends Component {
     constructor(props) {
         super(props);
-        this.state = {questionset: Object.values(this.props.questions)[0]};  
+        this.state = {questionset: Object.values(this.props.questions)[0], key: 1};  
     }
 
     changeSet(questionset) {
-        this.setState({questionset: questionset});
+        this.setState({questionset: questionset, key:this.state.key + 1});
     }
 
     render() {
-        console.log(this.state.questionset["questions"]);
+        const questions = shuffleArray(this.state.questionset["questions"])
 
         return(
               <Grid stackable columns={2}>
@@ -26,7 +33,7 @@ export default class QuestionSet extends Component {
               </Grid.Column>
               <Grid.Column stretched width={12}>
                   <Segment><b>{this.state.questionset['name']}</b>
-              <Questions questions={this.state.questionset["questions"]}></Questions>
+              <Questions questions={questions} key={this.state.key}></Questions>
               </Segment>
         
               </Grid.Column>

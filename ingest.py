@@ -7,7 +7,6 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-import gspread
 
 
 def connect_sheets():
@@ -34,15 +33,39 @@ def connect_sheets():
 
 def read_sheet(service, sheet_id, sheet, range):
     d = service.values().get(spreadsheetId=sheet_id, range=f"{sheet}!{range}").execute()['values']
-    header = d[0]
-    for row in d[1:]:
-        row = row + [None] * (len(header) - len(row))
-        yield dict(zip(header, row))
+    header = d.pop(0)
+    if header[0].startswith("#{"):
+        meta = json.loads(header[0][1:])
+        header = d.pop(0)
+    else:
+        meta = {}
+    rows = [dict(zip(header, row + [None] * (len(header) - len(row))))
+            for row in d]
+    return meta, rows
 
 def get_sheet_names(service, sheet_id):
     sheet_metadata = service.get(spreadsheetId=sheet_id).execute()
     sheets = sheet_metadata.get('sheets', '')
     return [sheet["properties"]["title"] for sheet in sheet_metadata["sheets"]]
+
+def questions_docg(rows):
+    qs = {row["Appellation"]: row["Soort"] for row in rows}
+    answers = sorted(set(qs.values()))
+    return [{"question": q, "answers": answers, "correct": answers.index(a)}
+            for q, a in qs.items()]
+
+def questions_mc(rows):
+    qs = {}
+    for row in rows:
+        q = row['Vraag']
+        antwoord = row['Antwoord']
+        correct = row.get('Correct') and row['Correct'].lower().strip() == "x"
+        if q not in qs:
+            qs[q] = {"question": q, "answers": []}
+        if correct:
+            qs[q]["correct"] = len(qs[q]["answers"])
+        qs[q]["answers"].append(antwoord)
+    return list(qs.values())
 
 SHEET_ID = sys.argv[1]
 questions = {}
@@ -50,23 +73,24 @@ service = connect_sheets()
 sheets = get_sheet_names(service, SHEET_ID)
 for sheet in sheets:
     print(f"*** {sheet}")
-    questions[sheet] = {}
-    for row in read_sheet(service, SHEET_ID, sheet, "A:D"):
-        q = row['Vraag']
-        antwoord = row['Antwoord']
-        correct = row.get('Correct') and row['Correct'].lower().strip() == "x"
-        if q not in questions[sheet]:
-            questions[sheet][q] = {"question": q, "answers": []}
-        if correct:
-            questions[sheet][q]["correct"] = len(questions[sheet][q]["answers"])
-        questions[sheet][q]["answers"].append(antwoord)
+    meta, rows = read_sheet(service, SHEET_ID, sheet, "A:D")
+    if not meta.get("include", True):
+        print("(Skipping)")
+        continue
+    if meta.get("type") == "docg":
+        qs = questions_docg(rows)
+    else:
+        qs = questions_mc(rows)
+    if qs:
+        questions[sheet] = qs
+
 
 for streek, qs in questions.items():
-    for i, question in enumerate(qs.values()):
+    for i, question in enumerate(qs):
         if 'correct' not in question:
             print(f"Missing answer key in {streek} question {i}: {question['question']}")
 
-sets = {streek: {"name": streek, "type": "MC", "questions": list(qs.values())}
+sets = {streek: {"name": streek, "type": "MC", "questions": qs}
         for (streek, qs) in questions.items()}
 
 with open("src/data.js", "w") as f:

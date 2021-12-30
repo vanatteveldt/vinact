@@ -4,7 +4,7 @@ export const questions = {
     "type": "MC",
     "questions": [
       {
-        "question": "How many DOCGs has Pietmonte?",
+        "question": "How many DOCGs does Piemonte have?",
         "answers": [
           "12",
           "17",
@@ -697,6 +697,582 @@ export const questions = {
       }
     ]
   },
+  "Veneto": {
+    "name": "Veneto",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "In Veneto, a wine labeled as \"Cabernet\" is most likely:",
+        "answers": [
+          "Cabernet Sauvignon only",
+          "A Cabernet Sauvignon, Merlot blend",
+          "Cabernet Franc only",
+          "A Cabernet Sauvignon, Cabernet Franc blend"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Veneto's vineyards are mainly found in:",
+        "answers": [
+          "The plains",
+          "The Alps",
+          "The hills",
+          "The coastal areas"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which grape is NOT used to make passito wines?",
+        "answers": [
+          "Rondinella",
+          "Glera",
+          "Vespaiola",
+          "Corvinone"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which Veneto province produces the most wine?",
+        "answers": [
+          "Venezia",
+          "Verona",
+          "Vicenza",
+          "Treviso"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which two grapes are unrelated to each other?",
+        "answers": [
+          "Garganega and Grecanico Dorato",
+          "Raboso Piave and Friularo",
+          "Glera and Glera Lunga",
+          "Corvina and Corvinone"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "The term \"marogne\" refers to:",
+        "answers": [
+          "An ancient trellising method",
+          "Small baskets for harvesting grapes by hand",
+          "Dry stone retaining walls used to make terraces",
+          "Decomposed basalt"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "The Adige river separates which two districts?",
+        "answers": [
+          "Bardolino and Valpolicella",
+          "Valpolicella and Soave",
+          "Valdobbiadene and Conegliano",
+          "Piave and Lison"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which of these is an approved auxiliary grape in Valpolicella? ",
+        "answers": [
+          "Corvina Veronese",
+          "Rondinella",
+          "Molinara",
+          "Corvinone"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which of these is made by pouring freshly made wine over the unpressed skins and lees (vinacce) of a different wine?",
+        "answers": [
+          "Amarone della Valpolicella DOCG",
+          "Recioto della Valpolicella DOCG",
+          "Valpolicella Ripasso DOC",
+          "Valpolicella Superiore DOC"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which appellation is not restricted to only hillsides?",
+        "answers": [
+          "Soave Superiore DOCG",
+          "Soave Colli Scaglieri",
+          "Soave DOC",
+          "Recioto di Soave DOCG"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which district is considered a \"twin\" to Soave?",
+        "answers": [
+          "Gambellara",
+          "Asolo-Montello",
+          "Colli Euganei",
+          "Bagnoli"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which appellation does not have volcanic soils?",
+        "answers": [
+          "Bagnoli Friularo DOCG",
+          "Colli Euganei Fior d'Arancio DOCG",
+          "Soave DOC",
+          "Recioto di Gambellara DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which appellation makes only spumante wines?",
+        "answers": [
+          "Conegliano Valdobbiadene-Prosecco DOCG",
+          "Valdobbiadene Superiore di Cartizze DOCG",
+          "Prosecco DOC",
+          "Colli do Conegliano DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which appellation is shared between Veneto and Friuli?",
+        "answers": [
+          "Breganze DOC",
+          "Piave DOC",
+          "Lison DOCG",
+          "Bagnoli Friularo DOCG"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which appellation is known for white blends based on Manzoni Bianco?",
+        "answers": [
+          "Asolo Prosecco DOCG",
+          "Conegliano Valdobbiadene-Prosecco DOCG",
+          "Colli di Conegliano DOCG",
+          "Lison DOCG"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which appellation is known for white wines based on Tai?",
+        "answers": [
+          "Lison DOCG",
+          "Piave Malanotte DOC",
+          "Bagnoli Friularo DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which of the following is NOT a property of the Rive designation?",
+        "answers": [
+          "Must be vintage-dated",
+          "Refers to specific, favorable vineyard sites (typically on slopes) ",
+          "An official sub-zone of C.V. Prosecco DOCG",
+          "Term precedes village name on labels"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Which appellation is known for wines from Moscato Giallo?",
+        "answers": [
+          "Colli Euganei Fior d'Arancio DOCG",
+          "Recioto di Gambellara DOCG",
+          "Friularo di Bagnoli"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which grape contributes tannic structure to Valpolicella?",
+        "answers": [
+          "Rondinella",
+          "Corvina",
+          "Molinara",
+          "Corvinone"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Where is the majority of the Veneto's vineyard land?",
+        "answers": [
+          "The alpine area",
+          "The plains",
+          "The hills"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "You walk into a New Hampshire Liquor and WIne Outlet and are astonished to find a bottle labeled \"Breganze Torcolato\". This wine will be: ",
+        "answers": [
+          "A dry, tannic red made with Cabernet Franc and Cabernet Sauvignon",
+          "A sweet passito made from Vespaiola",
+          "A sparkling wine made from Glera",
+          "A dry, acidic white wine made from Garganega"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is Bardolino Chiaretto?",
+        "answers": [
+          "A superior version of Bardolino",
+          "A sweet passito similar to Recioto della Valpolicella",
+          "A young Bardolino made using carbonic maceration",
+          "A rosato version of Bardolino"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Which of the following is NOT a white grape?",
+        "answers": [
+          "Glera",
+          "Rondinella",
+          "Vespaiola",
+          "Garganrga"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Veneto's most planted grape variety is:",
+        "answers": [
+          "Merlot",
+          "Garganega",
+          "Glera",
+          "Corvina",
+          "Pinot Grigio"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What are \"graticci\"?",
+        "answers": [
+          "Traditional grape-drying racks",
+          "Ventilated lofts for drying grapes",
+          "Dry stone retaining walls used to make terraces",
+          "Small baskets for harvesting grapes by hand"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which appellation abuts Lake Garda?",
+        "answers": [
+          "Valpolicella",
+          "Soave",
+          "Breganze",
+          "Bardolino"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "You open a bottle of Breganze DOC Rosso. What do you expect?",
+        "answers": [
+          "A light-bodied frizzante made from Corvina",
+          "A single-varietal wine made from the Tai grape",
+          "A Bordeaux-style blend",
+          "A sweet red passito "
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  "Emilia-Romagna": {
+    "name": "Emilia-Romagna",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "What city is not part of Emilia-Romagna?",
+        "answers": [
+          "Stradella",
+          "Rimini",
+          "Ferrara",
+          "Modena"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "How much ha under vine in Eimilia-Romagna?",
+        "answers": [
+          "30",
+          "40",
+          "50",
+          "60"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Among which town is Lambrusco made?",
+        "answers": [
+          "Lambrusco",
+          "Rimini",
+          "Modena",
+          "Bologna"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What year was Emilia-Romagna united?",
+        "answers": [
+          "1815",
+          "1861",
+          "1918",
+          "1947"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What region is not connected to Emilia Romagne?",
+        "answers": [
+          "Lombardia",
+          "Piemonte",
+          "Liguria",
+          "Valle D'Aosta"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What is NOT a subregion of Romagna?",
+        "answers": [
+          "Ravenna",
+          "Forli-Cesena",
+          "Rimini",
+          "Ferrara"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What River does not run in Emilia-Romagna ",
+        "answers": [
+          "Panaro",
+          "Tanaro",
+          "Seccia",
+          "Taro "
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which statement is NOT true",
+        "answers": [
+          "The climates are from mediterrenean to continental",
+          "As a whole slightly more white than red grape varieties grow in ER",
+          "Principal red grape is Lambrusco family",
+          "Soil at the plain are very fertile and have high yields"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Which grapes constitute over 40% of ER area unde vine?",
+        "answers": [
+          "Sangiovese &  Trebbiano",
+          "Sangiovese & Lambrusco",
+          "Lambrusco & Trebbiano",
+          "Just Lambrusco"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which Lambrusco grape is most tannic?",
+        "answers": [
+          "Lambrusco Salamino",
+          "Lambrusco di Sorbara",
+          "Lambrusco Marani",
+          "Lambrusco Grasparossa"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What grape has Pignoletto as synoniem?",
+        "answers": [
+          "Albana",
+          "Grechetto",
+          "Malvasia di Candia Aromatica",
+          "Trebbiano Romagnolo"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What training system is found in Lambrusco areas?",
+        "answers": [
+          "Sylvoz",
+          "Pergola",
+          "Guyot",
+          "Cordon"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What grape CANNOT be found in Colli Piacentini DOC?",
+        "answers": [
+          "Barbera",
+          "Bonarda",
+          "Cabernet Sauvignon",
+          "Sangiovese"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What DOC has highest production numbers?",
+        "answers": [
+          "Lambrusco Salamino di Santa Croce",
+          "Lambrusco di Sorbara",
+          "Lambrusco Marani",
+          "Lambrusco Grasparossa di Castelvetro"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What grape is found in Bologna district?",
+        "answers": [
+          "Albana",
+          "Grechetto",
+          "Malvasia di Candia Aromatica",
+          "Trebbiano Romagnolo"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is not a sub-designation of Romagna DOC?",
+        "answers": [
+          "Albana Spumante",
+          "Bosco Eliceo",
+          "Cagnina",
+          "Pagadebit"
+        ],
+        "correct": 1
+      }
+    ]
+  },
+  "Trentino": {
+    "name": "Trentino",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "What year were Trentino and Alto Adige part of Kingdom Italy?",
+        "answers": [
+          "1815",
+          "1861",
+          "1919",
+          "1947"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How much wine is qualified as DOC in Trentino?",
+        "answers": [
+          "60%",
+          "80%",
+          "90%",
+          "100%"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Who was the founder of Instituto Argrario di San Michelle all'Adige?",
+        "answers": [
+          "Carlo Gancia",
+          "Alesandro Gaja",
+          "Walter Massa",
+          "Edmund Mach"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What is NOT a river in Trenino?",
+        "answers": [
+          "Sarca",
+          "Brenta",
+          "Avisio",
+          "Adda"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "How much ha under vine in Trentino?",
+        "answers": [
+          "10000",
+          "20000",
+          "30000",
+          "40000"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What wine was traditionally made in Trentino?",
+        "answers": [
+          "Spumente",
+          "white still",
+          "red still",
+          "Passito"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What grape is called \"Prince of Trentino\"?",
+        "answers": [
+          "Teroldego",
+          "Marzemino",
+          "Lagrein",
+          "Enantio"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What grape is native to VAllagarina Valley?",
+        "answers": [
+          "Teroldego",
+          "Marzemino",
+          "Nosiola",
+          "Moscato Bianco"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the most widely planted grape in Trentino?",
+        "answers": [
+          "Pinot Grigio",
+          "Muller Thurgau",
+          "Chardonnay",
+          "Nosiola"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "How many DOCs can be found in Trentino?",
+        "answers": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Who promoted the Teroldego wines?",
+        "answers": [
+          "Alesandro Gaja",
+          "Elisabetta Foradori",
+          "Carlo Gancia",
+          "Giulio Ferrari"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Who promoted the sparkling wines in Trento DOC?",
+        "answers": [
+          "Alesandro Gaja",
+          "Elisabetta Foradori",
+          "Carlo Gancia",
+          "Giulio Ferrari"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What statement is true",
+        "answers": [
+          "In Trento DOC Nesiola is main grape",
+          "Riddling is only done by hand in Trento DOC",
+          "The Riserva must spend at least 36 months on lees",
+          "The Rosato Riserva is the most prestigious of the region"
+        ],
+        "correct": 2
+      }
+    ]
+  },
   "Liguria": {
     "name": "Liguria",
     "type": "MC",
@@ -780,6 +1356,436 @@ export const questions = {
           "38"
         ],
         "correct": 3
+      },
+      {
+        "question": "What wine is NOT found in Ormeasco di Pornassio DOC?",
+        "answers": [
+          "Sparkling Red",
+          "Dry Red",
+          "Rosato",
+          "Passito Red"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "DOCG": {
+    "name": "DOCG",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "Gattinara",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ghemme",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Lessona",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Bramaterra",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Boca",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Carema",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Erbaluce di Caluso",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Barolo",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Barbaresco",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Dogliani",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Dolcetto di Diano D\u2019Alba",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Dolcetto d\u2019Alba",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Barbera d\u2019Alba",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Langhe",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Alta Langa",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Roero",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Barbera d\u2019Asti",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Nizza",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Ruche di Castagnole Monferrato",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Brachetto d\u2019Acqui",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Freisa d\u2019Asti",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Grignolino d\u2019Asti",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Asti",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Asti Sparkling",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Moscato d\u2019Asti",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Barbera del Monferrato Superiore",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Barbera del Monferrato",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Dolcetto di Ovada Superiore",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Gavi",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "Colli Tortonesi",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Grignolino del Monferrato Casalese",
+        "answers": [
+          "DOC",
+          "DOCG"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "Alto Adige": {
+    "name": "Alto Adige",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "How many of the land is cultivable in Alto Adige?",
+        "answers": [
+          "10%",
+          "15%",
+          "20%",
+          "25%"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the Conca di Bolzano?",
+        "answers": [
+          "First red wine appellation of Alto Adige",
+          "Specific soil type only found around Bolzano",
+          "Typical grape from area of Bolzano",
+          "Geological basin around Bolzano that is hot in the summer"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What is the amount of ha under vine in Alto Adige?",
+        "answers": [
+          "4200",
+          "4800",
+          "5000",
+          "5300"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What district is most southern in Alto Adige?",
+        "answers": [
+          "Bassa Atesina",
+          "Merano",
+          "Valle Isarco",
+          "Bolzano"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What statement is NOT true",
+        "answers": [
+          "Historically Lagrein and Schiava were most important grapes",
+          "Today half of the grapes are white and half is red",
+          "International grapes dominate the varieties",
+          "Pinot Nero is most important international red variety"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is another name for Schiava",
+        "answers": [
+          "Teroldego",
+          "Marzemino",
+          "Vernatsch",
+          "Lagrein"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is NOT another name for Schiava?",
+        "answers": [
+          "Vernatsch",
+          "Trollinger",
+          "Urban",
+          "Teroldego"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What statement is not true about Gewurztraminer in Alto Adige?",
+        "answers": [
+          "It is 3rd most planted grape",
+          "It is found especially in Oltradige",
+          "it is an offspring from Traminer",
+          "it produces late harvest as well"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the main grape in Alto Adige?",
+        "answers": [
+          "Pinot Bianco",
+          "Gewurztraminer",
+          "Schiava",
+          "Pinot Grigio"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What statement is NOT true?",
+        "answers": [
+          "Alto Adige accounts for 2% of Italy's total production",
+          "Alto Adige has highest proportion of DOC wines",
+          "The region has a wide seleciton of varieties",
+          "Most wines are perfumed, refined and elegant"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Which grape is not found in Alto Adige Bianco?",
+        "answers": [
+          "Chardonnay",
+          "Pinot Bianco",
+          "Pinot Grigio",
+          "Sylvaner"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What is the most prestigious zone for Schiava?",
+        "answers": [
+          "Terlano",
+          "Valle Isarco",
+          "Lago di Caldaro",
+          "Santa Maddalena"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What region produces largest quantity of Schiava in Alto Adige",
+        "answers": [
+          "Terlano",
+          "Valle Isarco",
+          "Lago di Caldaro",
+          "Santa Maddalena"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "In LAgo di Caldaro, how much Schiava is required?",
+        "answers": [
+          "75%",
+          "85%",
+          "95%",
+          "100%"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is NOT an Appellation of Schiava?",
+        "answers": [
+          "Alto Adige Meranes",
+          "Lago di Caldaro",
+          "Alto Adige Colli di Bolzano",
+          "Valle Isarco"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What satement is NOT true?",
+        "answers": [
+          "Cooperatives are bigger than in Trentino",
+          "Cooperatives account for over 80% of production",
+          "Estate wineries account for a small proportion of production",
+          "The estate wineries elevated the reputation of the region"
+        ],
+        "correct": 0
       }
     ]
   }
