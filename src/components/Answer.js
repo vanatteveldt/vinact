@@ -13,6 +13,8 @@ export default class Answer extends Component {
             const wascorrect = this.props.answer == ci;
             const text = (wascorrect?<span>YEAH! Het antwoord {given} klopt!</span>:
                     <span>Helaas, jouw antwoord was {given}, maar het goede antwoord was {correct}</span>)
+
+
             return <div>
                 {text}<br/>
                 <Button onClick={this.props.handleNext}>En doorrrr</Button>
