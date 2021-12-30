@@ -10,7 +10,7 @@ export default class Answer extends Component {
             const given = this.props.question.answers[this.props.answer];
             const ci = this.props.question.correct;
             const correct = this.props.question.answers[ci];
-            const wascorrect = this.props.answer == ci;
+            const wascorrect = this.props.answer === ci;
             const text = (wascorrect?<span>YEAH! Het antwoord {given} klopt!</span>:
                     <span>Helaas, jouw antwoord was {given}, maar het goede antwoord was {correct}</span>)
 
