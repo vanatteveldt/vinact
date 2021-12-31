@@ -14,15 +14,18 @@ export default class QuestionSet extends Component {
     constructor(props) {
         super(props);
         const highscores = JSON.parse(window.localStorage.getItem('highscores')) || {}
+        const questionset = Object.values(this.props.questions)[0];
         this.state = {
-            questionset: Object.values(this.props.questions)[0], 
+            questionset: questionset, 
             key: 1,
             highscores: highscores,        
         };  
+        this.questions = shuffleArray(questionset["questions"]);
     }
 
     changeSet(questionset) {
         this.setState({questionset: questionset, key:this.state.key + 1});
+        this.questions = shuffleArray(questionset["questions"]);
     }
 
     setScore(score) {
@@ -37,7 +40,6 @@ export default class QuestionSet extends Component {
     }
 
     render() {
-        const questions = shuffleArray(this.state.questionset["questions"])
         return(
               <Grid stackable columns={2}>
               <Grid.Column stretched width={4}>
@@ -51,7 +53,7 @@ export default class QuestionSet extends Component {
                   <Segment><b>{this.state.questionset['name']}</b>
               <Questions 
                   highscore={this.state.highscores[this.state.questionset['name']]} 
-                  questions={questions} 
+                  questions={this.questions} 
                   key={this.state.key} 
                   handleDone={(score) => this.setScore(score)}></Questions>
               </Segment>

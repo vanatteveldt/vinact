@@ -1,5 +1,4 @@
 export const questions = {
-  
   "Piemonte": {
     "name": "Piemonte",
     "type": "MC",
@@ -1269,6 +1268,203 @@ export const questions = {
           "Riddling is only done by hand in Trento DOC",
           "The Riserva must spend at least 36 months on lees",
           "The Rosato Riserva is the most prestigious of the region"
+        ],
+        "correct": 2
+      }
+    ]
+  },
+  "Friuli": {
+    "name": "Friuli",
+    "type": "MC",
+    "questions": [
+      {
+        "question": "What is Ponca?",
+        "answers": [
+          "Training system used in Friuli",
+          "Type of soil with layers of sandstone and calcareous marls",
+          "Wind blowing from the Balkan into Friuli provinces of Isonzo Carso and Gulf of Trieste",
+          "Typical sparkling wine from Carso area made of Glera grape"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the division red and white in Friuli?",
+        "answers": [
+          "70% white, 30% red",
+          "30% white, 70% red",
+          "20% white, 80% red",
+          "80% white, 20 % red",
+          "50-50"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the main red grape in Friuli?",
+        "answers": [
+          "Refosco",
+          "Merlot",
+          "Cabernet Franc",
+          "Cabernet Sauvignon"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the main white traditional grape in Friuli?",
+        "answers": [
+          "Pinot grigio",
+          "Friulano",
+          "Ribolla Gialla",
+          "Malvasia Istriana"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is an identical grape of Friulano?",
+        "answers": [
+          "Savagnin",
+          "Cabernet Sauvignon",
+          "Sauvignonasse",
+          "Chardonnay"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "Who is considered setting standard for Friuli winemaking?",
+        "answers": [
+          "Mario Schiopetto",
+          "Joskso Gravner",
+          "Carlo Gancia",
+          "Walter Massa"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Who introduced the Amphorae into Friuli?",
+        "answers": [
+          "Mario Schiopetto",
+          "Joskso Gravner",
+          "Carlo Gancia",
+          "Walter Massa"
+        ],
+        "correct": 1
+      },
+      {
+        "question": "What is the most Northern DOC in Friuli?",
+        "answers": [
+          "Friuli Colli Orientali",
+          "Collio DOC",
+          "Friuli Isonzo",
+          "Carso"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is a Ronchi?",
+        "answers": [
+          "South facing hillside of Prealps",
+          "Type of soil with layers of sandstone and calcareous marls",
+          "Well exposed terraced sites"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is the name of the flagship white wine appellation of Friuli?",
+        "answers": [
+          "Carso ",
+          "Friuli Isonzo",
+          "Collio  ",
+          "Friuli Colli Orientali"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is the traditional home of Ribolla Gialla?",
+        "answers": [
+          "Oslavia",
+          "Capriva",
+          "San Floriano del Collio",
+          "Carso"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is not a subzone of Friuli Colli Orientali DOC?",
+        "answers": [
+          "Bialla",
+          "Rosazzo",
+          "Faedis",
+          "Romandolo"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "What is the name of the first DOCG in Friuli?",
+        "answers": [
+          "Romandolo",
+          "Colli Orientali del Friuli Picolit",
+          "Rosazzo",
+          "Lison"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "Romandolo DOCG is based on ",
+        "answers": [
+          "Verduzzo Giallo",
+          "Refosco",
+          "Ribolla Gialla",
+          "Friulano"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What white grape is native to Carso plateau?",
+        "answers": [
+          "Vitovska",
+          "Ribolla Gialla",
+          "Refosco",
+          "verduzzo Giallo"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the soil in Carso DOC",
+        "answers": [
+          "Gravally soil ",
+          "Sandstone with calcareous marble",
+          "Iron rich soil with limestone",
+          "vulcanic soil with chalk"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "What is Friuli's biggest DOC",
+        "answers": [
+          "Grave",
+          "Colli",
+          "Carso",
+          "Friuli Isonzo",
+          "Colli Orientali  "
+        ],
+        "correct": 0
+      },
+      {
+        "question": "What is the grape in Lison DOCG?",
+        "answers": [
+          "Friulano",
+          "Refosco",
+          "Verduzzo Giallo",
+          "Merlot"
+        ],
+        "correct": 0
+      },
+      {
+        "question": "If you find a nice bottle of Romandolo DOCG what kind of wine would it be?",
+        "answers": [
+          "Sparkling white",
+          "structured white",
+          "Sweet white ",
+          "Light crispy still white"
         ],
         "correct": 2
       }
