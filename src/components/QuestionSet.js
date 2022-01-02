@@ -36,7 +36,9 @@ export default class QuestionSet extends Component {
             const highscores = {...this.state.highscores, [q]: score}
             window.localStorage.setItem('highscores', JSON.stringify(highscores));
             this.setState({highscores: highscores})
+            return true;
         }
+        return false;
     }
 
     render() {
