@@ -68,12 +68,17 @@ def questions_mc(rows):
     return list(qs.values())
 
 SHEET_ID = sys.argv[1]
+SHEETS = sys.argv[2:]
+
 questions = {}
 service = connect_sheets()
 sheets = get_sheet_names(service, SHEET_ID)
 for sheet in sheets:
     print(f"*** {sheet}")
     meta, rows = read_sheet(service, SHEET_ID, sheet, "A:D")
+    if SHEETS and sheet not in SHEETS:
+        print("(Skipping)")
+        continue
     if not meta.get("include", True):
         print("(Skipping)")
         continue
