@@ -55,9 +55,14 @@ def questions_docg(rows):
             for q, a in qs.items()]
 
 def questions_mc(rows):
+    lastquestion = None
     qs = {}
     for row in rows:
         q = row['Vraag']
+        if not q.strip():
+            q = lastquestion
+        else:
+            lastquestion=q
         antwoord = row['Antwoord']
         correct = row.get('Correct') and row['Correct'].lower().strip() == "x"
         if q not in qs:
